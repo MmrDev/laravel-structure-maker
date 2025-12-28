@@ -1,0 +1,18 @@
+{
+    "name": "mmrdev/laravel-structure-maker",
+    "description": "A Laravel 12 package to help structure projects",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "MmrDev\\LaravelStructureMaker\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MmrDev\\LaravelStructureMaker\\LaravelStructureMakerServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
