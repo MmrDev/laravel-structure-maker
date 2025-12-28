@@ -2,6 +2,7 @@
     "name": "mmrdev/laravel-structure-maker",
     "description": "A Laravel 12 package to help structure projects",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "MmrDev\\LaravelStructureMaker\\": "src/"

@@ -1,4 +1,4 @@
-# The license
+MIT License
 
-Copyright (c) Author Name <mr.roustana@gmail.com>
+Copyright (c) 2025 MmrDev
 
