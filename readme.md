@@ -2,59 +2,60 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
-[![Build Status][ico-travis]][link-travis]
-[![StyleCI][ico-styleci]][link-styleci]
 
-This is where your description should go. Take a look at [contributing.md](../test/contributing.md) to see a to do list.
+A Laravel 12 package to help you quickly generate structured service classes and other boilerplate code in your projects.
 
 ## Installation
 
-Via Composer
+Install via Composer:
 
 ```bash
 composer require mmrdev/laravel-structure-maker
+```
+
+Publish stubs and config:
 
 php artisan vendor:publish --tag=structure-maker-stubs
 php artisan vendor:publish --tag=structure-maker-config
-```
 
-## Usage
+Usage
 
-## Change log
+After installation, you can generate a service class using the Artisan command:
 
-Please see the [changelog](changelog.md) for more information on what has changed recently.
+php artisan make:service UserService
+php artisan make:service Admin/UserService
 
-## Testing
 
-```bash
+This will create a new service class under app/Services/ with the correct namespace.
+
+Change log
+
+All notable changes to this package will be documented in the changelog
+.
+
+Testing
+
+Run tests with:
+
 composer test
-```
 
-## Contributing
+Contributing
 
-Please see [contributing.md](../test/contributing.md) for details and a todolist.
+Contributions are welcome! Please read the contributing guide
+ before submitting issues or pull requests.
 
-## Security
+Security
 
-If you discover any security related issues, please email author@email.com instead of using the issue tracker.
+If you discover any security issues, please contact me via email: mmrdev@example.com
+. Do not use the issue tracker for sensitive security reports.
 
-## Credits
+Credits
 
-- [Author Name][link-author]
-- [All Contributors][link-contributors]
+MmrDev
 
-## License
+All contributors
 
-MIT. Please see the [license file](license.md) for more information.
+License
 
-[ico-version]: https://img.shields.io/packagist/v/mmrdev/laravel-structure-maker.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/mmrdev/laravel-structure-maker.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/mmrdev/laravel-structure-maker/master.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/12345678/shield
-
-[link-packagist]: https://packagist.org/packages/mmrdev/laravel-structure-maker
-[link-downloads]: https://packagist.org/packages/mmrdev/laravel-structure-maker
-[link-travis]: https://travis-ci.org/mmrdev/laravel-structure-maker
-[link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/mmrdev
-[link-contributors]: ../../contributors
+This package is licensed under the MIT License. See the LICENSE
+ file for details.
